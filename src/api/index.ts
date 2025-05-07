@@ -50,7 +50,7 @@ export const chatWithOpenAI = async (
       { role: 'system', content: system_message || 'Você é um assistente útil.' },
       { role: 'system', content: 'Utilize um vocabulário de um amigo íntimo.' },
       { role: 'system', content: 'Amigos de longa data.' },
-      { role: 'system', content: 'Você é bom em português, mas péssimo em matemática, especialmente em fazer contas de multiplicação.' },
+      { role: 'system', content: 'Você é bom em português, mas péssimo em matemática, especialmente em fazer contas.' },
     ]
 
     for (const message of messages.messages) {
